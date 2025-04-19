@@ -1,0 +1,4 @@
+echo "node_modules
+npm-debug.log
+yarn-error.log
+.env" > frontend/.dockerignore

@@ -1,0 +1,42 @@
+{
+  "id": "79c67834-58fb-4918-a060-b6baffd10ca7",
+  "createdAt": "2025-04-19T16:45:40.647Z",
+  "personalInfos": {
+    "nom": "Casset",
+    "prenom": "Corentin",
+    "dateNaissance": "2025-04-18",
+    "adresse": "Bordeaux",
+    "telephone": "+33785210112",
+    "email": "corentin.casset@gmail.com"
+  },
+  "titleAndSub": {
+    "title": "Développeur Full-Stack",
+    "subtitle": "Lorem ipsum dolor fds fds sd df s fdsdf sfds fdsfds  fsdsdf fdf dfdsdf fds fsfds s fs dfdfsdfsdfsdfsd"
+  },
+  "proExperiences": [
+    {
+      "companyName": "Volcom",
+      "location": "Anglet, 64600",
+      "startDate": "2025-04-18",
+      "endDate": "2025-04-18",
+      "description": "Yeah description"
+    }
+  ],
+  "formations": [
+    {
+      "schoolName": "ahgfgfh",
+      "location": "aza",
+      "degree": "aaa",
+      "startDate": "2025-04-19",
+      "endDate": "2025-04-19",
+      "description": "JKZRfjkdlsjflskdflsjkd"
+    }
+  ],
+  "skills": [
+    {
+      "name": "a",
+      "category": "zaazaz",
+      "level": "Expert"
+    }
+  ]
+}
