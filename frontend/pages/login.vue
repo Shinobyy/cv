@@ -12,11 +12,19 @@ async function login() {
   loading.value = true
   
   try {
-    await $fetch('/api/login', {
+    const response = await $fetch('/api/login', {
       method: 'POST',
       body: credentials
     })
-    
+
+    if (!response) {
+      error.value = 'Une erreur est survenue. Veuillez réessayer.'
+      return
+    } else {
+      // Store the user data in the session
+      user.value = response.user
+      loggedIn.value = true
+    }
     // Refresh the session on client-side and redirect to the home page
     await refreshSession()
     await navigateTo('/dashboard')
