@@ -3,7 +3,17 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
 
-  modules: ['@nuxt/fonts', '@nuxt/icon', '@nuxt/image', '@nuxt/scripts', '@nuxt/ui', 'nuxt-auth-utils'],
+  modules: ['@nuxt/fonts', '@nuxt/icon', '@nuxt/image', '@nuxt/scripts', '@nuxt/ui', 'nuxt-auth-utils', '@unocss/nuxt'],
+
+  unocss: {
+    icons: {
+      scale: 1.2,
+      extraProperties: {
+        'display': 'inline-block',
+        'vertical-align': 'middle',
+      },
+    },
+  },
 
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
